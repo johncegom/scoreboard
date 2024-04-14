@@ -9,16 +9,15 @@
   font-size: 30px;
 }
 
-.container {
-  display: flex;
-  height: 100vh;
-  justify-content: space-around;
+body {
   background-color: #8ecae6;
-  text-align: center;
 }
 
-.container > div {
-  margin: auto 0;
+.container {
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
 
 h3 {
@@ -67,5 +66,20 @@ h3 {
 }
 
 .btn-group button:hover {
+  cursor: pointer;
+}
+
+.btn-newgame {
+  display: block;
+  margin: 1em auto 0 auto;
+  font-size: 0.75rem;
+  border: 2px solid #023047;
+  padding: 1em 0.5em;
+  border-radius: 5px;
+  color: #023047;
+  background-color: #ffb703;
+}
+
+.btn-newgame:hover {
   cursor: pointer;
 }
